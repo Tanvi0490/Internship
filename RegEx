@@ -1,0 +1,3 @@
+import re
+string = '01 0132 231875 1458 301 2725'
+print(re.findall(r"\b\w{4,}\b", string))
